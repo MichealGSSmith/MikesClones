@@ -1,0 +1,109 @@
+/*
+
+Author: Smitty's Web Solutions
+ProjectName: Google Clone
+
+**********************************
+TABLE OF CONTENTS
+
+1. Font Faces
+2. Nav styles
+3. Header styles
+4. Body Styles
+5. Main/Article styles
+6. Aside styles
+7. footer styles
+8. img styles
+9. Paragraph styles
+
+***********************************
+*/
+
+/**********************************
+Font faces */
+
+
+/**********************************
+Nav styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+
+
+/**********************************
+header styles */
+
+
+/**********************************
+Input Styles */
+.input{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+input {
+    width: 45%;
+    line-height: 215%;
+    border-radius: 15px;
+    
+   
+    
+}
+
+/**********************************
+Main/article styles */
+
+main{
+    height: 90vh;
+}
+/**********************************
+Paragraph */
+
+p{
+    text-align: center;
+}
+/**********************************
+footer styles */
+
+
+/**********************************
+img styles */
+
+img {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    width: 30%;
+    
+}
+
+
+/**********************************
+Button Styles */
+
+.btn {
+    text-align: center;
+    padding: 3vh;
+}
+button {
+    width: 14%;
+    height: 5vh;
+}
