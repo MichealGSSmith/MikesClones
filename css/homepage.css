@@ -1,0 +1,35 @@
+h1 {
+    background-color: gray ;
+    color:;
+    text-align: center;
+    margin: 0;
+    padding: 4vh;
+
+}
+
+.card-wrapper{
+    margin: 0;
+    width:50%;
+    height: 50vh;
+    float:left;
+    text-align: center;
+}
+
+.first {
+    background-image:url("../img/20201203_155936.jpg");
+    background-size: cover;
+}
+
+.second{
+    background-image: url("../img/20201203_155941.jpg");
+    background-size:auto;
+}
+.third{
+    background-image: url("../img/20201203_155941.jpg");
+    background-size: contain;
+}
+
+.fourth{
+    background-image: url("../img/20201203_155941.jpg");
+    background-size: cover;
+}
