@@ -29,11 +29,12 @@ h1 {
 .third{
     background-image: url("../img/20201203_155941.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     display: block;
 }
 
 .fourth{
     background-image: url("../img/20201203_155941.jpg");
-    background-size: cover;
+    background-size:fill;
     display: block;
 }
