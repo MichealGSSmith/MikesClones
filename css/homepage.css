@@ -16,9 +16,10 @@ h1 {
 }
 
 .first {
-    background-image:url("../img/20201203_155936.jpg");
-    background-size: cover;
-    display: block;
+    background-image:url("../img/google.png");
+    display: flex;
+    
+    
 }
 
 .second{
