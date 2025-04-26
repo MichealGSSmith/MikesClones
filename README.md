@@ -12,6 +12,8 @@ Things to do next session:
 
 ~~Add the picture to my folder.~~
 Adjust picture to fit the box selected for my google frontend project. 
+Make boxes clickable so they can go to correct cloned page,
+Add anchor to google block so it can go to the correct page.
 
 
 
