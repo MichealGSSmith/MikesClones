@@ -18,6 +18,7 @@ h1 {
 .first {
     background-image:url("../img/google.png");
     display: flex;
+    object-fit: fit;
     
     
 }
