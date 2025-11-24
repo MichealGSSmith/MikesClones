@@ -1,26 +1,36 @@
+/*Header*/
+header{
+    display: flex;
+    height: 12vh;
+    background-color: aqua;  
+}
+.logo{
+    max-width: 30%;
+    max-height: 100%;
+    margin-left:1%;
+    align-self: center;
+}
 h1 {
-    background-color: gray ;
     color: #000000;
+    align-self: center;
     text-align: center;
-    margin: 0;
-    padding: 4vh;
-
+    width: 80%;
 }
 
 .card-wrapper{
-    margin: 0;
+    margin: 0 auto;
     width:50%;
     height: 50vh;
     float:left;
     text-align: center;
 }
 
+/*This is changing the background image and the title/description of blocks*/
 .first {
     background-image:url("../img/google.png");
-    display: flex;
-    object-fit: fit;
-    
-    
+    display: block;
+    background-position: center;
+    background-size:cover;
 }
 
 .second{
@@ -40,3 +50,4 @@ h1 {
     background-size:fill;
     display: block;
 }
+
