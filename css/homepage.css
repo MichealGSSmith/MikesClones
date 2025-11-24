@@ -116,10 +116,18 @@ h1 {
 
 
 .fourth{
-    background-image: url("../img/20201203_155941.jpg");
-    background-size:fill;
-    display: block;
+    background-image:url("../img/spacexlogo.png");
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    color:#05948f;
     border-radius: 1em;
+}
+.fourth h2{
+    margin:0 auto;
+    padding-top:2%;
+    background-color:white; 
+    text-transform: uppercase; 
 }
 
 .fifth{
@@ -133,9 +141,7 @@ h1 {
     filter: grayscale(99);  
     
 }
-.fifth:hover{
-    filter: grayscale(90%);
-}
+
 
 
 /*footer*/
