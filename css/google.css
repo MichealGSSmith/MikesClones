@@ -81,6 +81,44 @@ p{
 }
 /**********************************
 footer styles */
+footer{
+    margin-top: 4%;
+    min-width: 100%;
+    background-color: #9dfbf8;
+    position: absolute;
+    color:#05948f;
+    font-weight: 600;
+    
+}
+/*footer section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}*/
+footer section{
+    display: flex;
+    padding:0 2%;
+    font-family: "Poppins",serif;
+}
+
+footer p{
+    flex: 1;
+    align-self: center;
+}
+.logo{
+    max-width: 30%;
+    max-height: 100%;
+    
+    align-self: center;
+}
+
+footer .logo {
+    display: block;
+    height: 10%;
+    width:10%;
+}
 
 
 /**********************************

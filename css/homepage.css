@@ -30,6 +30,7 @@ header{
 }
 h1 {
     font-family:"Poppins",sans-serif;
+    text-transform: uppercase;
     font-weight:bolder;
     font-size: 3em;
     color: #05948f;
@@ -51,44 +52,74 @@ h1 {
     background-image:url("../img/google.png");
     background-position: center;
     background-size:cover;
-    color:#05948f
-    
-    
+    color:#05948f;
+    border-radius: 1em;
 }
 .first h2{
     margin:0 auto;
     padding-top:2%;
-    background-color:white;  
-}
-.first p{
-    margin:0;
-    background-color: white;
+    background-color:white; 
+    text-transform: uppercase; 
 }
 
+
 .first:hover{
-    filter: grayscale(99);
-    color:#05948f
+    filter: grayscale(99);  
     
 }
 .second{
-    background: #9dfbf8;
+    background: #042f2f;
     color: #05948f;
     background-size:auto;
     display: block;
+    border-radius: 1em;
+    align-content: center;
 }
 
+.second h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 0 5%;
+    text-transform: uppercase;
+}
+.second p{
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding: 0 5%;
+}
 .third{
+    background: #042f2f;
+    color: #05948f;
+    background-size:auto;
+    display: block;
+    border-radius: 1em;
+    align-content: center;
+}
+.third h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 0 5%;
+    text-transform: uppercase;
+}
+.third p{
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding: 0 5%;
+}
+/*.third{
     background: #9dfbf8;
     color: #05948f;
     background-size:auto;
     display: block;
-}
+    border-radius: 1em;
+}*/
 
 
 .fourth{
     background-image: url("../img/20201203_155941.jpg");
     background-size:fill;
     display: block;
+    border-radius: 1em;
 }
 
 .fifth{
@@ -96,6 +127,11 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
+    border-radius: 1em;
+}
+.fourth:hover{
+    filter: grayscale(99);  
+    
 }
 .fifth:hover{
     filter: grayscale(90%);
@@ -106,6 +142,32 @@ h1 {
 footer{
     margin-top: 4%;
     min-width: 100%;
-    background-color: #05948f;
+    background-color: #9dfbf8;
     position: absolute;
+    color:#05948f;
+    font-weight: 600;
+    
 }
+/*footer section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}*/
+footer section{
+    display: flex;
+    padding:0 2%;
+}
+
+footer p{
+    flex: 1;
+    align-self: center;
+}
+
+footer img {
+    display: block;
+    height: 10%;
+    width:10%;
+}
+
