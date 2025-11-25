@@ -24,7 +24,37 @@ TABLE OF CONTENTS
 /*Header Styles*/
 /*Body Styles*/
 /*Main/Article*/
+main{
+     margin:auto;
+    min-height: 90vh;
+    
+}
 /*Aside Styles*/
 /*Footer Styles*/
+
+footer{
+    margin-top: 4%;
+    min-width: 100%;
+    background-color: #9dfbf8;
+    position: absolute;
+    color:#05948f;
+    font-weight: 600;
+    
+}
+footer section{
+    display: flex;
+    padding:0 2%;
+}
+
+footer p{
+    flex: 1;
+    align-self: center;
+}
+
+footer img {
+    display: block;
+    height: 10%;
+    width:10%;
+}
 /*Image Styles*/
 /*Paragraph Styles*/

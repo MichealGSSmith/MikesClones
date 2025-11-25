@@ -49,6 +49,7 @@ h1 {
 
 /*This is changing the background image and the title/description of blocks*/
 .first {
+
     background-image:url("../img/google.png");
     background-position: center;
     background-size:cover;
