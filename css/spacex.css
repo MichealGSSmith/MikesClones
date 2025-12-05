@@ -44,6 +44,18 @@ TABLE OF CONTENTS
     margin-left: 60%;
 
 }
+
+.hero3 h2{
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform:uppercase;
+    letter-spacing: .02em;
+    font-family: "Roboto", sans-serif;
+    max-width: 40%;
+    margin-left: 60%;
+
+}
 /*Body Styles*/
 /*Main/Article/section/*/
 
@@ -53,7 +65,7 @@ TABLE OF CONTENTS
 /*Footer Styles*/
 
 footer{
-    margin-top: 4%;
+    /*margin-top: 4%;*/
     min-width: 100%;
     background-color: #9dfbf8;
     position: absolute;
@@ -91,6 +103,19 @@ footer img {
 }
 
 .hero2 p{
+    margin-left: 60%;
+    margin-top: 1%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: 400;
+    text-transform:uppercase;
+    letter-spacing: .02em;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.hero3 p{
     margin-left: 60%;
     margin-top: 1%;
     font-size: 1rem;
@@ -167,6 +192,31 @@ footer img {
     
 }
 
+.hero3 {
+    height: 100vh;
+    width:100%;
+    background: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("../img/pexels-cottonbro-7169844.jpg");
+    background-size:auto;
+    background-position:right;
+    
+}
+
+
+
+
+.hero3 .content3{
+    text-align: right;
+    z-index: 20;
+    color: aliceblue;
+    padding-right: 15rem;
+    
+}
+
 
 /*Button*/
 
@@ -180,6 +230,7 @@ button{
     color: white;
     height: 48px;
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
 }
 
 button::after{
