@@ -12,6 +12,19 @@ window.addEventListener('scroll', function(){
         header.classList.remove('hidden');
     }
     lastScrollTop = scrollTop;
-})
+});
+
+
+//const trigger = document.getElementsByClassName('nav-items2');
+//const content = document.getElementsByClassName('company-sub');
+
+//trigger.addEventListener('mouseenter', function() {
+
+//    this.content.classList.add('show-sub')
+//});
+
+//trigger.addEventListener('mouseleave', function() {
+//    this.content.classList.remove('show-sub')
+//});
 
 

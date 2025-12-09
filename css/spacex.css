@@ -63,7 +63,7 @@ header img{ /*this is the img of the header*/
     text-transform: uppercase;
 }
 .nav-menu li{ /*This adjusts the nav li  */
-    padding-right: 2.3rem;
+    padding-right: 1.9rem;
 }
 
 .vehicles-sub{/*this makes it so the sub cat doesnt show auto*/
@@ -71,6 +71,10 @@ header img{ /*this is the img of the header*/
 }
 .company-sub{ /*this makes it so the sub cat doesnt show auto*/
     display: none;
+}
+.show-sub {
+    display: block;
+    z-index: 1000;
 }
 .upcoming-events{
     width: 20%;
