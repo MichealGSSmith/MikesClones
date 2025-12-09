@@ -24,7 +24,60 @@ TABLE OF CONTENTS
 
 
 /*Header Styles*/
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    display: flex;
+    top: 0;
+    transition: top 0.9s ;
+}
+.header.hidden{
+    top:-100px;
+}
+a{ /*This is for all the anchor tags*/
+    text-decoration: none;
+    color: inherit;
+}
+.logo{/*This is the logo section in header*/
+    width: 15%;
+    
+}
+header img{ /*this is the img of the header*/
+    height: 75px;
+    padding-left: 3rem;
+}
 
+.nav-menu{ /*this is dealing with the section related to the nav*/
+    width: 62%;
+    align-content: center;
+}
+.nav-menu ul{/*this changes the ul of the nav menu*/
+    display: flex;
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(240, 240, 250, .9);
+    text-transform: uppercase;
+}
+.nav-menu li{ /*This adjusts the nav li  */
+    padding-right: 2.3rem;
+}
+
+.vehicles-sub{/*this makes it so the sub cat doesnt show auto*/
+    display: none;
+}
+.company-sub{ /*this makes it so the sub cat doesnt show auto*/
+    display: none;
+}
+.upcoming-events{
+    width: 20%;
+}
+
+
+/*Body Styles*/
 .hero h2{
     font-size: 2.25rem;
     font-style: normal;
@@ -58,7 +111,7 @@ TABLE OF CONTENTS
     margin-left: 60%;
 
 }
-/*Body Styles*/
+
 /*Main/Article/section/*/
 
 
