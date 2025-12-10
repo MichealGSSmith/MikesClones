@@ -73,9 +73,10 @@ header img{ /*this is the img of the header*/
     display: none;
 }
 .show-sub {
-    display: inline-block;
+    position: absolute;
+    display: block;
     
-    z-index: 1000;
+    
 }
 .upcoming-events{
     width: 20%;
