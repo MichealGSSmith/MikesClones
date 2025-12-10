@@ -326,7 +326,7 @@ button::after{
     font-weight: bold;
 }
 
-button:hover{
+.hero-button:hover{
     background-color:  rgba(240, 240, 250, .9);
     color: black;
 }
