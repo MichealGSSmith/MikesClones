@@ -66,7 +66,7 @@ header img{ /*this is the img of the header*/
     padding-right: 1.9rem;
     
 }
-.nav-items > ul {
+.nav-items > ul { /*needed this to fix the hidden li items since it was inheirt from the main nav*/
     display: block !important;          /* override the parent flex */
     position: absolute;                 /* dropdown positioning */
     flex-direction: column !important;  /* vertical stacking */
@@ -98,6 +98,15 @@ header img{ /*this is the img of the header*/
 }
 .upcoming-events{
     width: 20%;
+    align-content: center;
+    text-align: right;
+}
+.upcoming-events button {
+    height: 25px;
+}
+
+.dropdown-card{
+    display: none;
 }
 
 
@@ -315,4 +324,9 @@ button::after{
     content: '→';
     padding-left: 1rem;
     font-weight: bold;
+}
+
+button:hover{
+    background-color:  rgba(240, 240, 250, .9);
+    color: black;
 }
