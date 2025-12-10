@@ -64,19 +64,37 @@ header img{ /*this is the img of the header*/
 }
 .nav-menu li{ /*This adjusts the nav li  */
     padding-right: 1.9rem;
+    
+}
+.nav-items > ul {
+    display: block !important;          /* override the parent flex */
+    position: absolute;                 /* dropdown positioning */
+    flex-direction: column !important;  /* vertical stacking */
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.nav-items2 > ul {
+    display: block !important;          /* override the parent flex */
+    position: absolute;                 /* dropdown positioning */
+    flex-direction: column !important;  /* vertical stacking */
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .vehicles-sub{/*this makes it so the sub cat doesnt show auto*/
     display: none;
+    padding: 0.25rem 0 0.25rem 0;
 }
+
 .company-sub{ /*this makes it so the sub cat doesnt show auto*/
     display: none;
-}
+    padding: 0.25rem 0 0.25rem 0;
+    
+} 
 .show-sub {
-    position: absolute;
-    display: block;
-    
-    
+    display: block !important;
 }
 .upcoming-events{
     width: 20%;
@@ -210,7 +228,7 @@ footer img {
 .hero .content{
     position: relative;
     z-index: 20;
-    color: aliceblue;
+    color:  rgba(240, 240, 250, .9);
     text-align: left;
     padding-left: 15rem;
 }
@@ -247,7 +265,7 @@ footer img {
 .hero2 .content2{
     text-align: right;
     z-index: 20;
-    color: aliceblue;
+    color:  rgba(240, 240, 250, .9);
     padding-right: 15rem;
     
 }
@@ -272,7 +290,7 @@ footer img {
 .hero3 .content3{
     text-align: right;
     z-index: 20;
-    color: aliceblue;
+    color:  rgba(240, 240, 250, .9);
     padding-right: 15rem;
     
 }
@@ -287,7 +305,7 @@ button{
     border: 1px solid rgba(240, 240, 250, .35);
     background-color:rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    color: white;
+    color:  rgba(240, 240, 250, .9);
     height: 48px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;

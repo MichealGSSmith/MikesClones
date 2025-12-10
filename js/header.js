@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     trigger.addEventListener('mouseleave', () => {
-        menu.forEach(item => item.classList.remove('show-sub')); //going through list
-        console.log('they go away') //testing to see if firing
+     menu.forEach(item => item.classList.remove('show-sub')); //going through list
+       console.log('they go away'); //testing to see if firing
     });
 });
