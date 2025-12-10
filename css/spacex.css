@@ -73,7 +73,8 @@ header img{ /*this is the img of the header*/
     display: none;
 }
 .show-sub {
-    display: block;
+    display: inline-block;
+    
     z-index: 1000;
 }
 .upcoming-events{
@@ -190,7 +191,6 @@ footer img {
 .hero {
     height: 100vh;
     width:100%;
-    background: red;
     display: flex;
     align-items: center;
     overflow: hidden;
