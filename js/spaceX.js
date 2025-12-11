@@ -50,5 +50,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+//This is the dropdown for the upcoming missions.
+
+document.addEventListener('DOMContentLoaded', () => {
+    const trigger = document.querySelector('.upcoming-events'); //grabs the li element
+    const menu = document.querySelectorAll('.dropdown-card '); //grabs all sub-li elements
+
+    trigger.addEventListener('mouseenter', () => {
+        menu.forEach(item => item.classList.add('show-card')); //going through list
+        console.log('here are launches') //testing to see if firing
+    });
+
+    trigger.addEventListener('mouseleave', () => {
+        menu.forEach(item => item.classList.remove('show-card')); //going through list
+        console.log('bye launches') //testing to see if firing
+    });
+});
 
 

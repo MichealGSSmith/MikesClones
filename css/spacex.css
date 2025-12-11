@@ -109,6 +109,13 @@ header img{ /*this is the img of the header*/
     display: none;
 }
 
+.show-card {
+    display: block !important;
+}
+
+
+
+
 
 /*Body Styles*/
 .hero h2{
