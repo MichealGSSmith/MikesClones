@@ -43,7 +43,7 @@ a{ /*This is for all the anchor tags*/
     width: 15%;
     
 }
-header img{ /*this is the img of the header*/
+.logo > img{ /*this is the img of the header*/
     height: 75px;
     padding-left: 3rem;
 }
@@ -74,7 +74,7 @@ header img{ /*this is the img of the header*/
     padding:0;
     margin: 0;
 }
-.nav-items2 > ul {
+.menu2 {
     display: block !important;          /* override the parent flex */
     position: absolute;                 /* dropdown positioning */
     flex-direction: column !important;  /* vertical stacking */
@@ -97,20 +97,75 @@ header img{ /*this is the img of the header*/
     display: block !important;
 }
 .upcoming-events{
+    position: relative;
     width: 20%;
     align-content: center;
     text-align: right;
 }
-.upcoming-events button {
-    height: 25px;
-}
 
-.dropdown-card{
+.dropdown-card {
     display: none;
+    position: absolute;
+    flex-direction: column;   /* makes all child cards stack vertically */
+    width: 100%;
 }
 
 .show-card {
-    display: block !important;
+    display: flex !important; /* show AND become a flex column */
+    flex-direction: column;
+    
+}
+
+.dropdownimg img {
+    height: 60px;
+    object-fit: cover;
+    padding: 0.5rem 0 0 1rem;
+}
+
+.card1,
+.card2 {
+    display: flex;
+    position: relative; /* replace absolute to keep natural stacking */
+    padding: 0;
+    margin-left: 8.7rem; /*this plus width makes it so the cards sit right under upcoming launches*/
+    background-color: rgba(0, 0, 0, .35);
+    width:63%;/*this plus margin-left makes it so the cards sit right under upcoming launches*/
+}
+
+
+.card-content h3 {
+    font-size: 0.7 rem;
+    font-weight: 400;
+    color: rgba(240, 240, 250, .9);
+    font-family: "Roboto", sans-serif;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+    text-align: left;
+}
+.card-content p {
+    font-size: .7rem !important;
+    color: rgba(240, 240, 250, .9);
+    font-family: "Roboto", sans-serif;
+    padding: 0 0 0 1rem;
+    margin: 0;
+    text-align: left;
+}
+.card-content2 h3 {
+    font-size: 0.7 rem;
+    font-weight: 400;
+    color: rgba(240, 240, 250, .9);
+    font-family: "Roboto", sans-serif;
+    padding: 1rem 0 0 1.2rem ;
+    margin: 0;
+    text-align: left;
+}
+.card-content2 p {
+    font-size: .7rem !important;
+    color: rgba(240, 240, 250, .9);
+    font-family: "Roboto", sans-serif;
+    padding: 0 0 0 1.2rem;
+    margin: 0;
+    text-align: left;
 }
 
 
@@ -184,6 +239,8 @@ footer img {
     width:10%;
 }
 /*Image Styles/Video*/
+
+
 /*Paragraph Styles*/
 .hero p{
     max-width: 40%;
