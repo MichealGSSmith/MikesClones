@@ -11,7 +11,7 @@ body{
 
 /*main*/
 main{
-    margin: 0 2% 0 2%;
+    margin: 2% 2% 0 2%;
     min-height: 90vh;
     display:grid;
     grid-template-columns: repeat(2, 2fr);
@@ -199,27 +199,47 @@ footer img {
         margin: 0;
         width: 100%;
     }
+
+    main a:first-of-type {
+        display: flex;
+        order: 1;
+    }
+
+    .card-wrapper.third{
+        order:2
+        
+    }
+    main a:nth-of-type(2){
+        display: flex;
+        order:3;
+    }
     
 
 
     header {
-        height: 5vh;
+        height: 8vh;
     }
 
     h1{
         font-size: 2em;
     }
 
+    .second,
+    .third{
+        border-radius: 0%;
+    }
+
     .second h2,
     .third h2 {
-        font-size: 1.7em;
+        font-size: 2em;
+        
     }
 
     .first p,
     .second p,
     .third p,
     .fourth p {
-        font-size: 0.8em;
+        font-size: 1.5em;
     }
 }
 
@@ -239,10 +259,37 @@ footer img {
 
     .card-wrapper.third{
         order:2
+        
     }
     main a:nth-of-type(2){
         display: flex;
         order:3;
+    }
+
+        header {
+        height: 8vh;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .second,
+    .third{
+        border-radius: 0%;
+    }
+
+    .second h2,
+    .third h2 {
+        font-size: 2em;
+        
+    }
+
+    .first p,
+    .second p,
+    .third p,
+    .fourth p {
+        font-size: 1.5em;
     }
 }
 
