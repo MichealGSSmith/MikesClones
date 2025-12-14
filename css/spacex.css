@@ -402,6 +402,10 @@ button::after{
         display:none;
     }
 
+    .hero{
+        overflow: hidden;
+    }
+
     .hero .content{
         width: 100%;
         padding: 0 2% 2% 2%;
@@ -412,6 +416,7 @@ button::after{
 
     .hero2{
         background-position: center top;
+        overflow: hidden;
     }
     .hero2 .content2{
         width: 100%;
@@ -424,6 +429,7 @@ button::after{
 
     .hero3{
         background-position: center;
+        overflow: hidden;
     }
 
     .hero3 .content3{
