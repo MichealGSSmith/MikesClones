@@ -398,6 +398,16 @@ button::after{
 /*@media queries*/
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .hero h2,
+    .hero p,
+    .hero2 h2,
+    .hero2 p,
+    .hero3 h2,
+    .hero3 p {
+        margin-top: 0;
+    }
+
     header{
         display:none;
     }
@@ -482,6 +492,13 @@ button::after{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+    padding: 
+            env(safe-area-inset-top)
+            env(safe-area-inset-right)
+            env(safe-area-inset-bottom)
+            env(safe-area-inset-left);
+}
     header{
         display:none;
     }
@@ -562,5 +579,14 @@ button::after{
         font-size: .75rem;
         text-transform: none;
     }
+
+.hero,
+.hero2,
+.hero3 {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow: hidden;
+}
 
 }
