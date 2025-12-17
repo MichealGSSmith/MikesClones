@@ -33,6 +33,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const trigger = document.querySelector('.nav-items'); //grabs the li element
+    const menu = document.querySelectorAll('.vehicles-sub'); //grabs all sub-li elements
+
+    trigger.addEventListener('click', () => {
+        menu.forEach(item => item.classList.add('show-sub')); //going through list
+        console.log('they show up') //testing to see if firing
+    });
+
+    trigger.addEventListener('click', () => {
+        menu.forEach(item => item.classList.remove('show-sub')); //going through list
+        console.log('they go away') //testing to see if firing
+    });
+});
+
 //This makes the drop down for  in header
 
 document.addEventListener('DOMContentLoaded', () => {

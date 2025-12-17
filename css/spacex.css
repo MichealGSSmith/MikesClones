@@ -168,6 +168,10 @@ a{ /*This is for all the anchor tags*/
     text-align: left;
 }
 
+.mobile-version{
+    display: none;
+}
+
 
 
 
@@ -489,6 +493,15 @@ button::after{
         font-size: .75rem;
         text-transform: none;
     }
+
+    .mobile-version{
+        width: 100%;
+        position: fixed;
+        z-index: 100000;
+        display: flex;
+        top: 0;
+        transition: top 0.9s ;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -499,8 +512,47 @@ button::after{
             env(safe-area-inset-bottom)
             env(safe-area-inset-left);
 }
-    header{
-        display:none;
+
+    .header{
+        display: block;
+        height: 100%;
+    }
+    .computer-version{
+        display: none;
+    }
+    .mobile-version{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .nav-menu{
+        display: none;
+        width: 100%;
+        height: 100%;
+        align-content:flex-start ;
+        background-color: rgba(0, 0, 0,.82);
+    }
+    nav{
+        height: 60%;
+    }
+
+    .logo{
+        width:30%;
+    }
+    .logo img{
+        padding-left: 1rem;
+    }
+
+    
+
+    .nav-menu ul {
+        display: block;
+        padding:0 0 0 1rem;
+    }
+
+    
+    .upcoming-events{
+        display: none;
     }
     .hero{
         overflow: hidden;
@@ -580,13 +632,12 @@ button::after{
         text-transform: none;
     }
 
-.hero,
-.hero2,
-.hero3 {
-    position: relative;
-    min-height: 100vh;
-    min-height: 100svh;
-    overflow: hidden;
-}
-
+    .hero,
+    .hero2,
+    .hero3 {
+        position: relative;
+        min-height: 100vh;
+        min-height: 100svh;
+        overflow: hidden;
+    }
 }
