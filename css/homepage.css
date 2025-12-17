@@ -141,16 +141,52 @@ h1 {
     text-transform: uppercase; 
 }
 
-.fifth{
-    background-image: url("../img/20201203_155941.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    border-radius: 1em;
-}
 .fourth:hover{
     filter: grayscale(99);  
     
+}
+
+.card-wrapper.fifth {
+
+    background-image:url("../img/applelogo.png");
+    background-position:center;
+    background-size:30% 50%;
+    background-repeat: no-repeat;
+    color:#05948f;
+    border-radius: 1em;
+}
+.card-wrapper.fifth h2{
+    margin:0 auto;
+    padding-top:2%;
+    background-color:white; 
+    text-transform: uppercase; 
+}
+
+
+.card-wrapper.fifth:hover{
+    filter: grayscale(99);  
+    
+}
+.card-wrapper.sixth{
+    background: #042f2f;
+    color: #05948f;
+    background-size:auto;
+    display: block;
+    border-radius: 1em;
+    align-content: center;
+    margin-bottom: 2rem;
+}
+
+.card-wrapper.sixth h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 0 5%;
+    text-transform: uppercase;
+}
+.card-wrapper.sixth p{
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding: 0 5%;
 }
 
 
@@ -213,6 +249,16 @@ footer img {
         display: flex;
         order:3;
     }
+
+    .card-wrapper.sixth{
+        order:4;
+        
+    }
+
+    main a:nth-of-type(3){
+        display: flex;
+        order:5;
+    }
     
 
 
@@ -225,12 +271,14 @@ footer img {
     }
 
     .second,
-    .third{
+    .third,
+    .card-wrapper.sixth{
         border-radius: 0%;
     }
 
     .second h2,
-    .third h2 {
+    .third h2,
+    .sixth h2 {
         font-size: 2em;
         
     }
@@ -238,7 +286,9 @@ footer img {
     .first p,
     .second p,
     .third p,
-    .fourth p {
+    .fourth p
+    .fifth p,
+    .sixth p {
         font-size: 1.5em;
     }
 }
@@ -266,6 +316,16 @@ footer img {
         order:3;
     }
 
+        .card-wrapper.sixth{
+        order:4;
+        
+    }
+
+    main a:nth-of-type(3){
+        display: flex;
+        order:5;
+    }
+
         header {
         height: 12vh;
     }
@@ -275,12 +335,14 @@ footer img {
     }
 
     .second,
-    .third{
+    .third,
+    .card-wrapper.sixth{
         border-radius: 0%;
     }
 
     .second h2,
-    .third h2 {
+    .third h2,
+    .sixth h2 {
         font-size: 2em;
         
     }
@@ -288,8 +350,11 @@ footer img {
     .first p,
     .second p,
     .third p,
-    .fourth p {
+    .fourth p
+    .fifth p,
+    .sixth p {
         font-size: 1.5em;
     }
 }
+
 
