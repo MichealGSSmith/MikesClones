@@ -89,18 +89,19 @@ a {
     display: block;
     border-radius: 1em;
     align-content: center;
+    text-align: left;
 }
 
 .second h2{
     font-weight: 700;
     font-size: 2.5rem;
-    padding: 0 5%;
+    padding: 0 0 0 1%;
     text-transform: uppercase;
 }
 .second p{
     font-weight: 550;
     font-size: 1.5rem;
-    padding: 0 5%;
+    padding: 0 0 0 1%;
 }
 .third{
     background: #042f2f;
@@ -109,17 +110,18 @@ a {
     display: block;
     border-radius: 1em;
     align-content: center;
+    text-align: right;
 }
 .third h2{
     font-weight: 700;
     font-size: 2.5rem;
-    padding: 0 5%;
+    padding: 0 1% 0 0;
     text-transform: uppercase;
 }
 .third p{
     font-weight: 550;
     font-size: 1.5rem;
-    padding: 0 5%;
+    padding: 0 1% 0 0;
 }
 /*.third{
     background: #9dfbf8;
@@ -179,18 +181,19 @@ a {
     border-radius: 1em;
     align-content: center;
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .card-wrapper.sixth h2{
     font-weight: 700;
     font-size: 2.5rem;
-    padding: 0 5%;
+    padding: 0 0 0 1%;
     text-transform: uppercase;
 }
 .card-wrapper.sixth p{
     font-weight: 550;
     font-size: 1.5rem;
-    padding: 0 5%;
+    padding: 0 0 0 1%;
 }
 
 
@@ -244,9 +247,14 @@ footer img {
         display: flex;
         order: 1;
     }
+    .second {
+        text-align: center;
+
+    }
 
     .card-wrapper.third{
-        order:2
+        order:2;
+        text-align: center;
         
     }
     main a:nth-of-type(2){
@@ -256,6 +264,7 @@ footer img {
 
     .card-wrapper.sixth{
         order:4;
+        text-align: center;
         
     }
 
@@ -310,9 +319,13 @@ footer img {
         display: flex;
         order: 1;
     }
+    .second{
+        text-align: center;
+    }
 
     .card-wrapper.third{
-        order:2
+        order:2;
+        text-align: center;
         
     }
     main a:nth-of-type(2){
@@ -322,6 +335,7 @@ footer img {
 
         .card-wrapper.sixth{
         order:4;
+        text-align: center;
         
     }
 
