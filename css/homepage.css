@@ -373,6 +373,13 @@ footer img {
     .sixth p {
         font-size: 1.5em;
     }
+
+    footer img {
+    display: block;
+    height: 25%;
+    width:25%;
+    padding: 0 0 0 10%;
+}
 }
 
 
