@@ -57,6 +57,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*This is changing the background image and the title/description of blocks*/
 .first {
 
