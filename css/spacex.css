@@ -640,4 +640,11 @@ button::after{
         min-height: 100svh;
         overflow: hidden;
     }
+
+    footer img {
+    display: block;
+    height: 10%;
+    width:10%;
+    padding: 0 0 0 8%
+}
 }
