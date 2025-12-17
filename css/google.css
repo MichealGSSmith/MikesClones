@@ -212,5 +212,8 @@ button {
     button{
         width: 48%;
     }
+    footer .logo{
+        width: 25%;
+    }
     
 }
