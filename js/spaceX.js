@@ -18,7 +18,7 @@ window.addEventListener('scroll', function(){
 
 //This makes the drop down for vehicles in header
 
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     const trigger = document.querySelector('.nav-items'); //grabs the li element
     const menu = document.querySelectorAll('.vehicles-sub'); //grabs all sub-li elements
 
@@ -62,6 +62,29 @@ document.addEventListener('DOMContentLoaded', () => {
     trigger.addEventListener('mouseleave', () => {
      menu.forEach(item => item.classList.remove('show-sub')); //going through list
        console.log('they go away'); //testing to see if firing
+    });
+});*/
+
+//this is the refactored code for my nav menu e is the computers idea of the human action i.e click, etc
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('nav').addEventListener('click', (e) => {
+
+        const vehiclesTrigger = e.target.closest('.nav-items');
+        const companyTrigger  = e.target.closest('.nav-items2');
+
+        if (vehiclesTrigger) {
+            e.preventDefault(); // REQUIRED for mobile
+            vehiclesTrigger
+                .querySelectorAll('.vehicles-sub')
+                .forEach(item => item.classList.toggle('show-sub'));
+        }
+
+        if (companyTrigger) {
+            e.preventDefault(); // REQUIRED for mobile
+            companyTrigger
+                .querySelectorAll('.company-sub')
+                .forEach(item => item.classList.toggle('show-sub'));
+        }
     });
 });
 

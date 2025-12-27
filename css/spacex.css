@@ -48,6 +48,23 @@ a{ /*This is for all the anchor tags*/
     padding-left: 3rem;
 }
 
+.hamburger {
+    display: none;
+    width: 40px;
+    height: 30px;
+    background: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span{
+    height: 4px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 2px;
+}
+
 .nav-menu{ /*this is dealing with the section related to the nav*/
     width: 62%;
     align-content: center;
@@ -401,7 +418,7 @@ button::after{
 
 /*@media queries*/
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1025px) {
 
     .hero h2,
     .hero p,
@@ -412,8 +429,51 @@ button::after{
         margin-top: 0;
     }
 
-    header{
-        display:none;
+    .header{
+        display: block;
+        height: 100%;
+    }
+    .computer-version{
+        display: none;
+    }
+    .mobile-version{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .nav-menu{
+        display: none;
+        width: 100%;
+        height: 100%;
+        align-content:flex-start ;
+        background-color: rgba(0, 0, 0,.82);
+    }
+    nav{
+        height: 60%;
+    }
+
+    .logo{
+        width:30%;
+    }
+    .logo img{
+        padding-left: 1rem;
+    }
+
+    
+
+    .nav-menu ul {
+        display: block;
+        padding:0 0 0 1rem;
+    }
+
+    
+    .upcoming-events{
+        display: none;
+    }
+
+
+    .hamburger {
+        display: flex;
     }
 
     .hero{
@@ -492,15 +552,6 @@ button::after{
         margin:0;
         font-size: .75rem;
         text-transform: none;
-    }
-
-    .mobile-version{
-        width: 100%;
-        position: fixed;
-        z-index: 100000;
-        display: flex;
-        top: 0;
-        transition: top 0.9s ;
     }
 }
 
