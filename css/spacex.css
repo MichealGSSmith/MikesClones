@@ -51,7 +51,7 @@ a{ /*This is for all the anchor tags*/
 .hamburger {
     display: none;
     width: 40px;
-    height: 30px;
+    height: 1.15rem;
     background: none;
     cursor: pointer;
     flex-direction: column;
@@ -61,7 +61,7 @@ a{ /*This is for all the anchor tags*/
 .hamburger span{
     height: 4px;
     width: 100%;
-    background-color: #000;
+    background-color:  rgba(240, 240, 250, .9) ;
     border-radius: 2px;
 }
 
@@ -406,7 +406,7 @@ button{
 }
 
 button::after{
-    content: '→';
+    
     padding-left: 1rem;
     font-weight: bold;
 }
@@ -453,13 +453,23 @@ button::after{
     }
 
     .logo{
-        width:30%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .logo img{
         padding-left: 1rem;
     }
 
+    .hamburger {
+        padding: 0 1rem 0 0;
+        border: none;
+        
+        
+    }
     
+
 
     .nav-menu ul {
         display: block;
@@ -588,13 +598,23 @@ button::after{
     }
 
     .logo{
-        width:30%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .logo img{
         padding-left: 1rem;
     }
 
+    .hamburger {
+        padding: 0 1rem 0 0;
+        border: none;
+        
+        
+    }
     
+
 
     .nav-menu ul {
         display: block;
@@ -604,6 +624,11 @@ button::after{
     
     .upcoming-events{
         display: none;
+    }
+
+
+    .hamburger {
+        display: flex;
     }
     .hero{
         overflow: hidden;
@@ -695,7 +720,7 @@ button::after{
     footer img {
     display: block;
     height: 10%;
-    width:10%;
+    width:25%;
     padding: 0 0 0 8%
 }
 }
