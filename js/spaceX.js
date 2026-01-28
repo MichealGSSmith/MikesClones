@@ -105,4 +105,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', ()=> {
+    const button = document.querySelector('.hamburger');
+    const menu = document.querySelector('.nav-menu');
 
+    button.addEventListener('click', function(){
+        menu.classList.toggle('show-sub');
+        console.log('this is the mobile menu');
+    })
+
+});
